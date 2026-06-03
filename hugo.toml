@@ -4,14 +4,35 @@ title = "Jafar's Blog"
 theme = "PaperMod"
 paginate = 10
 
+
 [params]
   author = "Jafar"
-  description = "Systems, Rust, and low-level engineering"
-  defaultTheme = "auto"  # light/dark/auto
+  description = "Systems engineer. Writing about Rust, C++, Linux internals, and low-level performance."
+  defaultTheme = "auto"
   ShowReadingTime = true
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
 
-[taxonomies]
-  tag = "software"
-  category = "categories"
+  [params.profileMode]
+    enabled = true
+    title = "Jafar"
+    subtitle = "Systems engineer. Writing about Rust, C++, Linux internals, and low-level performance."
+    imageTitle = "Jafar"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/jafar75"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/jafar-gholamzadeh-341a31127/"
+
+[[menus.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 1
+
+[[menus.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 2
