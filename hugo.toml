@@ -1,0 +1,17 @@
+baseURL = "https://jafar75.github.io/"
+languageCode = "en-us"
+title = "Jafar's Blog"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  author = "Jafar"
+  description = "Systems, Rust, and low-level engineering"
+  defaultTheme = "auto"  # light/dark/auto
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+
+[taxonomies]
+  tag = "software"
+  category = "categories"
